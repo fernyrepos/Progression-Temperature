@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Progression: Temperature</name>
+	<author>ferny</author>
+	<packageId>ferny.progressiontemperature</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>vanillaexpanded.temperature</packageId>
+			<displayName>Vanilla Temperature Expanded</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3202046258</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>Integrates and removes overlap from temperature mods for Rimworld.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>Dubwise.DubsBadHygiene</li>
+		<li>uuugggg.replacestuff</li>
+		<li>OskarPotocki.VFE.Classical</li>
+		<li>vanillaexpanded.temperature</li>
+		<li>rebuild.cotr.doorsandcorners</li>
+		<li>dev.tobot.vpe.betterautocast</li>
+	</loadAfter>
+</ModMetaData>

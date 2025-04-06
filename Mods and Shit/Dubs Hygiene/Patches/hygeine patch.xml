@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+	<!--  Remove useless shit      -->
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RadiatorTowelRail"]</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AirConOutdoorUnit"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="AirconIndoorUnit"]</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="FreezerUnit"]</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="airPipe"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="MultiSplitAirCon"]</xpath>
+                </Operation>
+	<!--  Relabel shit     -->
+                <Operation Class="PatchOperationReplace">
+                <xpath>Defs/DesignationCategoryDef[defName="Hygiene"]/label</xpath>
+                    <value>
+                        <label>Plumbing</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchProjectDef[defName="CentralHeating"]/label</xpath>
+                    <value>
+                        <label>Fluid heat exchange</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchProjectDef[defName="GeothermalHeating"]/label</xpath>
+                    <value>
+                        <label>Geothermal water heating</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="SolarHeater"]/label</xpath>
+                    <value>
+                        <label>Solar water heater</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GeothermHeater"]/label</xpath>
+                    <value>
+                        <label>Geothermal water heater</label>
+                    </value>
+                </Operation>
+    	<!--  Temperature expanded      -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VTE_SmallCeilingFan"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VTE_LargeCeilingFan"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+	<!--  Move shit      -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="BasedHeating"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Hygiene</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="SolarHeater"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Hygiene</designationCategory>
+                    </value>
+                </Operation>
+                    <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GeothermHeater"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Hygiene</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="WashingMachine"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Hygiene</designationCategory>
+                    </value>
+                </Operation>
+</Patch>
