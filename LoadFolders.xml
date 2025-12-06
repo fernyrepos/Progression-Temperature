@@ -15,4 +15,15 @@
     <li IfModActive="rebuild.cotr.doorsandcorners">Mods and Shit/Rebuild DAC</li>
     <li IfModActive="dev.tobot.vpe.betterautocast">Mods and Shit/Better Autocasting</li>
   </v1.5>
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="Dubwise.DubsBadHygiene">Mods and Shit/Dubs Hygiene</li>
+    <li IfModActive="uuugggg.replacestuff">Mods and Shit/Replace Stuff</li>
+    <li IfModActive="OskarPotocki.VFE.Classical">Mods and Shit/VFE Classical</li>
+    <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule"
+      >Mods and Shit/VFE Settlers</li
+    >
+    <li IfModActive="rebuild.cotr.doorsandcorners">Mods and Shit/Rebuild DAC</li>
+    <li IfModActive="dev.tobot.vpe.betterautocast">Mods and Shit/Better Autocasting</li>
+  </v1.6>
 </loadFolders>
