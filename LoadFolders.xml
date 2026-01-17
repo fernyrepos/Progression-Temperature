@@ -14,5 +14,7 @@
     <li IfModActive="OskarPotocki.VFE.Classical">Mods and Shit/VFE Classical</li>
     <li IfModActive="rebuild.cotr.doorsandcorners">Mods and Shit/Rebuild DAC</li>
     <li IfModActive="dev.tobot.vpe.betterautocast">Mods and Shit/Better Autocasting</li>
+    <li IfModActive="erin.cottagecollection">Mods and Shit/Erin Cottage Collection</li>
+    <li IfModActive="vanillaexpanded.temperature">Mods and Shit/VE Temperature</li>
   </v1.5>
 </loadFolders>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 	<VEF.Buildings.HiddenDesignatorsDef>
-		<defName>FernyDubsHygieneProgTemperature_HiddenDesignators</defName>
+		<defName>FernyErinCottageProgTemperature_HiddenDesignators</defName>
 		<hiddenDesignators>			
-			<li>RadiatorTowelRail</li>
+			<li>CCot_FireplaceElectric</li>
 		</hiddenDesignators>							
 	</VEF.Buildings.HiddenDesignatorsDef>
 </Defs>
