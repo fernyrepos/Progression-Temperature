@@ -16,5 +16,7 @@
     <li IfModActive="dev.tobot.vpe.betterautocast">Mods and Shit/Better Autocasting</li>
     <li IfModActive="erin.cottagecollection">Mods and Shit/Erin Cottage Collection</li>
     <li IfModActive="vanillaexpanded.temperature">Mods and Shit/VE Temperature</li>
+		<li IfModActive="vanillaexpanded.temperature">Mods and Shit/VTE or DBH</li>
+		<li IfModActive="Dubwise.DubsBadHygiene" IfModNotActive="vanillaexpanded.temperature">Mods and Shit/VTE or DBH</li>
   </v1.5>
 </loadFolders>
