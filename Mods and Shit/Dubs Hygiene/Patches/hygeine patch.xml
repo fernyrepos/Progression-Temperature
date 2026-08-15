@@ -38,6 +38,24 @@
                         <label>Water-based heating</label>
                     </value>
                 </Operation>
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ResearchProjectDef[defName="LogBoilers"]/prerequisites</xpath>
+                  <match Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="LogBoilers"]/prerequisites</xpath>
+                    <value>
+                      <li>Plumbing</li>
+                    </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="LogBoilers"]</xpath>
+                    <value>
+                      <prerequisites>
+                        <li>Plumbing</li>
+                      </prerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
                 <Operation Class="PatchOperationReplace">
                     <xpath>Defs/ResearchProjectDef[defName="CentralHeating"]/label</xpath>
                     <value>
