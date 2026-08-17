@@ -3,18 +3,24 @@
     <li>/</li>
     <li IfModActive="Dubwise.DubsBadHygiene">Mods and Shit/Dubs Hygiene</li>
     <li IfModActive="uuugggg.replacestuff">Mods and Shit/Replace Stuff</li>
+    <li IfModActive="Memegoddess.ReplaceStuff">Mods and Shit/Replace Stuff</li>
     <li IfModActive="OskarPotocki.VFE.Classical">Mods and Shit/VFE Classical</li>
     <li IfModActive="rebuild.cotr.doorsandcorners">Mods and Shit/Rebuild DAC</li>
     <li IfModActive="dev.tobot.vpe.betterautocast">Mods and Shit/Better Autocasting</li>
+    <li IfModActive="scpchemfuel.appliances">Mods and Shit/Appliances Expanded</li>
+    <li IfModActive="VanillaExpanded.HelixienGas">Mods and Shit/VE Helixien Gas</li>
   </v1.4>
   <v1.5>
     <li>/</li>
     <li IfModActive="Dubwise.DubsBadHygiene">Mods and Shit/Dubs Hygiene</li>
     <li IfModActive="uuugggg.replacestuff">Mods and Shit/Replace Stuff</li>
+    <li IfModActive="Memegoddess.ReplaceStuff">Mods and Shit/Replace Stuff</li>
     <li IfModActive="OskarPotocki.VFE.Classical">Mods and Shit/VFE Classical</li>
     <li IfModActive="rebuild.cotr.doorsandcorners">Mods and Shit/Rebuild DAC</li>
     <li IfModActive="dev.tobot.vpe.betterautocast">Mods and Shit/Better Autocasting</li>
     <li IfModActive="erin.cottagecollection">Mods and Shit/Erin Cottage Collection</li>
+    <li IfModActive="scpchemfuel.appliances">Mods and Shit/Appliances Expanded</li>
+    <li IfModActive="VanillaExpanded.HelixienGas">Mods and Shit/VE Helixien Gas</li>
     <li IfModActive="vanillaexpanded.temperature">Mods and Shit/VE Temperature</li>
 		<li IfModActive="vanillaexpanded.temperature">Mods and Shit/VTE or DBH</li>
 		<li IfModActive="Dubwise.DubsBadHygiene" IfModNotActive="vanillaexpanded.temperature">Mods and Shit/VTE or DBH</li>

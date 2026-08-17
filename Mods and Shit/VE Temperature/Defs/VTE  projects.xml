@@ -7,8 +7,21 @@
 		<description>Build hefty coolers for larger walk-in freezers and demanding temperature control.</description>
 		<baseCost>700</baseCost>
 		<techLevel>Industrial</techLevel>
+		<researchViewX>24.03</researchViewX>
+		<researchViewY>4.03</researchViewY>
+		<prerequisites>
+			<li>AirConditioning</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_IndustrialHeating</defName>
+		<label>Industrial heater</label>
+		<description>Build hefty heaters for large rooms and demanding temperature control.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
 		<researchViewX>24.00</researchViewX>
-		<researchViewY>4.00</researchViewY>
+		<researchViewY>5.00</researchViewY>
 		<prerequisites>
 			<li>AirConditioning</li>
 		</prerequisites>

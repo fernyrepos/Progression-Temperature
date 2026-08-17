@@ -86,7 +86,7 @@
                   <match Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="CeilingFanS"]/researchPrerequisites</xpath>
                     <value>
-                      <researchPrerequisites>
+                      <researchPrerequisites Inherit="False">
                         <li>Ferny_CeilingFans</li>
                       </researchPrerequisites> 
                    </value>
@@ -94,7 +94,7 @@
                   <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="CeilingFanS"]</xpath>
                     <value>
-                      <researchPrerequisites>
+                      <researchPrerequisites Inherit="False">
                         <li>Ferny_CeilingFans</li>
                       </researchPrerequisites> 
                     </value>
@@ -106,7 +106,7 @@
                   <match Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="CeilingFan"]/researchPrerequisites</xpath>
                     <value>
-                      <researchPrerequisites>
+                      <researchPrerequisites Inherit="False">
                         <li>Ferny_CeilingFans</li>
                       </researchPrerequisites> 
                    </value>
@@ -114,7 +114,7 @@
                   <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="CeilingFan"]</xpath>
                     <value>
-                      <researchPrerequisites>
+                      <researchPrerequisites Inherit="False">
                         <li>Ferny_CeilingFans</li>
                       </researchPrerequisites> 
                     </value>

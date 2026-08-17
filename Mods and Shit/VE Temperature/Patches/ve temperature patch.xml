@@ -39,13 +39,34 @@
                 </Operation>
 
 
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="Heater"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Heater"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>AirConditioning</li>
+                      </researchPrerequisites>
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Heater"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>AirConditioning</li>
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
 
                 <Operation Class="PatchOperationConditional">
                   <xpath>/Defs/ThingDef[defName="VTE_LargeCeilingFan"]/researchPrerequisites</xpath>
                   <match Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="VTE_LargeCeilingFan"]/researchPrerequisites</xpath>
                     <value>
-                      <researchPrerequisites>
+                      <researchPrerequisites Inherit="False">
                         <li>Ferny_CeilingFans</li>
                       </researchPrerequisites> 
                    </value>
@@ -53,7 +74,7 @@
                   <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="VTE_LargeCeilingFan"]</xpath>
                     <value>
-                      <researchPrerequisites>
+                      <researchPrerequisites Inherit="False">
                         <li>Ferny_CeilingFans</li>
                       </researchPrerequisites> 
                     </value>
@@ -65,7 +86,7 @@
                   <match Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="VTE_SmallCeilingFan"]/researchPrerequisites</xpath>
                     <value>
-                      <researchPrerequisites>
+                      <researchPrerequisites Inherit="False">
                         <li>Ferny_CeilingFans</li>
                       </researchPrerequisites> 
                    </value>
@@ -73,7 +94,7 @@
                   <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="VTE_SmallCeilingFan"]</xpath>
                     <value>
-                      <researchPrerequisites>
+                      <researchPrerequisites Inherit="False">
                         <li>Ferny_CeilingFans</li>
                       </researchPrerequisites> 
                     </value>
@@ -97,6 +118,27 @@
                     <value>
                       <researchPrerequisites>
                         <li>Ferny_IndustrialCooling</li>
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="VTE_IndustrialHeater"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VTE_IndustrialHeater"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_IndustrialHeating</li>
+                      </researchPrerequisites>
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VTE_IndustrialHeater"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_IndustrialHeating</li>
                       </researchPrerequisites>
                     </value>
                   </nomatch>
